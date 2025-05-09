@@ -1,0 +1,374 @@
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+
+/* NAV Style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.nav-head{
+    font-size: 32px;
+}
+nav ul li{
+    list-style: none;
+}
+.nav-btn{
+    background-color: #F5F5F5;
+    color: #006A50;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-color: #006A50;
+}
+
+
+/* banner section */
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+.banner{
+    display: flex;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    
+}
+.banner-content{
+    padding-top: 117px;
+    padding-bottom: 117px;
+    padding-left: 59.99px;
+}
+.banner-greetings
+{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5)
+}
+.banner-description{
+    font-size: 56px;
+    color: rgba(14, 14, 14, 1);
+}
+.banner-button{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-color: rgba(0, 106, 80, 1);
+}
+.banner-image{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 59.99px;
+}
+
+
+/* Main section */
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Piller section */
+.piller{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.piller-title{
+    font-size: 40px;
+}
+.pillars-container{
+    display: flex;
+    gap: 24px;
+}
+.container{
+    padding: 24px;
+    border-radius: 24px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25)
+}
+.container-title{
+    font-size: 20px;
+}
+.container-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+
+}
+
+
+
+
+/* vision section */
+.vision{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+.vision-title{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+.vision-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
+.vision-container{
+    display: flex;
+    gap: 24px;
+
+}
+.card{
+    padding: 24px;
+    border-radius: 24px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25)
+}
+.card-title{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.card-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.primary-btn{
+    padding: 11px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.speech-part{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 48px 24px;
+    
+
+}
+.speech-container{
+    font-size: 16;
+    color: rgba(14, 14, 14, 0.8);
+}
+.speech-bg{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.speech-heading{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.speech-position{
+    font-size: 16px;
+    color : rgba(14, 14, 14, 0.6)
+}
+.recent-news{
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+.news-head{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+.news-body{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.card1{
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 48px 48px;
+}
+
+.content{
+    display: flex;
+    gap: 32px;
+}
+.content-pera{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.img-process{
+    border-radius:  24px;
+}
+.btr-primary{
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1)
+}
+.card2{
+    display: flex;
+    gap: 32px;
+    border-radius: 24px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 48px 48px;
+    margin-top: 24px;
+
+}
+
+
+/* Donate Section */
+.donate{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+.text-align{
+    text-align: center;
+}
+.donate-content{
+    color : rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+}
+.donate-heading{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+.takas{
+    display: flex;
+    gap: 24px;
+}
+.taka{
+    padding: 40px 40px;
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+
+}
+.amount{
+    font-size: 30px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.bg-color{
+    background-color: rgba(198, 228, 214, 1);
+}
+.checkbox{
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 0px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 32px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+.submit_box{
+    padding: 20px 40px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    text-align: center;
+    font-size: 2opx;
+    color: rgba(14, 14, 14, 0.3);
+}
+.btn2{
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+}
+
+/* Subscribe Section */
+.subscribe{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 24px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 80px 100px;
+    background-color: rgba(198, 228, 214, 1);
+}
+.sub-head{
+    font-size: 40px;
+    color: rgba(14, 14, 14, 1);
+}
+.sub-pera{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.box{
+    padding: 18px 40px;
+    border-radius: 4px;
+    border-color: rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 1);
+    width: 400px;
+}
+.button{
+    padding: 18px 40px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 5px;
+}
+.place-text{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    text-align: none;
+    border: none;
+}
+
+
+/* Footer */
+.last{
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 80px;
+    padding: 50px 160px;
+}
+.last-font{
+    font-size: 32px;
+    color: rgba(14, 14, 14, 1);
+    padding: 0px 0px;
+}
+.image-process{
+    text-align: center;
+    padding-top: 32px;
+}
+.size{
+    width: 24px;
+    height: 24px;
+    
+}
